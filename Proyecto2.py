@@ -110,7 +110,7 @@ def escribir_en_archivo():
 def eliminar_elemento():
     """Eliminar un archivo o directorio"""
     try:
-        nombre = input("Nombre del elemento que quiere eliminar")
+        nombre = input("Nombre del elemento que quiere eliminar: ")
             
         if not os.path.exists(nombre):
             print("Error: El elemento no existe")
